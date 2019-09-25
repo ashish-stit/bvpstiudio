@@ -22,3 +22,9 @@ Route::post('register', 'API\UserController@register');
 Route::group(['middleware' => 'auth:api'], function(){
 Route::post('details', 'API\UserController@details');
 });
+// Route::post('UploadImage', 'API\UploadFileController@images');
+// Route::post('UploadVideo', 'API\UploadFileController@videos');
+// Route::post('InsertRecord', 'API\UploadFileController@store');
+// Route::get('ViewRecord', 'API\UploadFileController@showrecord');
+// Route::delete('RemoveStudent/{id}', 'API\UploadFileController@remove');
+// Route::post('UpdateRecord/{id}', 'API\UploadFileController@update');
