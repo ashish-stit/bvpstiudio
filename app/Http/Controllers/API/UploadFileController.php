@@ -341,4 +341,3 @@ class UploadFileController extends Controller
     
     
   }
-}
